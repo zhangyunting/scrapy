@@ -53,6 +53,7 @@ def get_text(url):
 
 
 def scroll_foot(URL):
+    “下翻网页到底，需下载chromedrive并改成相应路径”
     Chrome_login = webdriver.Chrome(
         executable_path=r'C:\Users\ASUS\AppData\Local\Programs\Python\Python36\chromedriver.exe')
     Chrome_login.get(URL)
